@@ -53,7 +53,7 @@ p {
   
  }
  .texto-com-fundo-2 {
-    background-color: #c85353; /* Fundo preto com 60% de transparência */
+    background-color: 	#C71585; /* Fundo preto com 60% de transparência */
     height: 12rem;
     width: 50rem;
     border-radius: 3rem; /* Bordas arredondadas (opcional) */
@@ -76,7 +76,7 @@ p {
 
 
  .segunda {
-    background-color: #c85353;
+    background-color: 	#C71585;
     height: 50rem;
     display: flex; /* Ativa o Flexbox */
     flex-wrap: wrap; /* Permite quebrar linha se necessário */
