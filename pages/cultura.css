@@ -1,0 +1,110 @@
+@import "../css/global.css";
+@import "../css/header.css";
+
+
+body{
+    background: var(--indonesia-bg);
+    background-size: cover;     /* Faz com que a imagem ocupe toda a área */
+    background-position: center; /* Centraliza a imagem */
+    height: 100vh; 
+    overflow: hidden;             
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100%; 
+}
+
+img {
+
+    width: 26rem ;
+}
+
+h1 {
+    color: #fff;
+}
+
+p {
+
+    width: 30rem;
+    margin: 2rem;
+    color: #fff;
+    
+
+ }
+ .primeira{
+    font-family:'Montserrat', sans-serif;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 2.3rem;
+    height: 26%; /* Define a altura da primeira parte */
+    display: flex; /* Usa Flexbox */
+    flex-direction: column; /* Alinha os itens em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: space-evenly; /* Espaçamento igual entre os itens */
+    display: flex; /* Usa Flexbox */
+    flex-direction: column;
+    padding-top: 2rem;
+ 
+  
+ }
+ .texto-com-fundo-2 {
+    background-color: #c85353; /* Fundo preto com 60% de transparência */
+    height: 12rem;
+    width: 50rem;
+    border-radius: 3rem; /* Bordas arredondadas (opcional) */
+    text-align: center; /* Centraliza o texto dentro do bloco */
+    padding-top: 2.5rem;
+      
+
+
+ }
+ .texto-com-fundo {
+    background-color: rgba(0, 0, 0, 0.28); /* Fundo transparente */
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 19rem;
+    text-align: justify;
+    height: 20rem;
+    margin-top: 4rem;
+    position: relative; /* Garante controle do posicionamento */
+ }
+
+
+ .segunda {
+    background-color: #c85353;
+    height: 50rem;
+    display: flex; /* Ativa o Flexbox */
+    flex-wrap: wrap; /* Permite quebrar linha se necessário */
+    gap: 5rem; /* Espaçamento entre os itens */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-start; /* Alinha ao topo dos itens */
+    padding: 2rem;
+   
+}
+
+
+.segunda img {
+ 
+    width: 19rem;
+    height: 20rem;
+    margin-top: 4rem;
+ 
+
+}
+
+.segunda p {
+    
+    text-align: center; 
+    width: 15rem; /* Define a largura do parágrafo */
+    text-align: justify; /* Justifica o texto, espalhando-o por toda a largura */
+    font-size: 0.8rem;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+}
